@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// Macro de comparaison
+// Macro de comparaison 
 #define MAX(a,b) (a > b)
 
 // Macro boolean vrai ou faux
