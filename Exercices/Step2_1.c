@@ -13,7 +13,7 @@ void main()
 {
     
     // Réception des deux nombres a comparer par l'utilisateur
-    printf("veuillez enter deux nombre pour comparaison\nA : ");
+    printf("Veuillez enter deux nombre pour comparaison\nA : ");
     scanf("%f",&num1);
     printf("B : ");
     scanf("%f",&num2);
