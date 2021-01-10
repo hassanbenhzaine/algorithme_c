@@ -9,7 +9,7 @@
 
 float num1, num2;
 
-void main()
+main()
 {
     
     // Réception des deux nombres a comparer par l'utilisateur
