@@ -21,5 +21,6 @@ main(){
 	scanf(" %d",&numTel);
 	
 	printf("%s %s, %d ans, je suis %s et mon numero telephone est %d",nom,prenom,age,sex,numTel);
+	system("pause");
 }
 
