@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+int a;
+
 main(){
 	printf("",PrintPyramyde(5));
 }
@@ -8,7 +10,7 @@ main(){
 //int PrintPyramyde(int a){
 
 //void PrintStar(int n){
-	for(int i = 1; i <= a;  i++){
+	for (int i = 1; i <= a;  i++){
 		printf("%d", i * 2 + 1);
 	}
 //	}
