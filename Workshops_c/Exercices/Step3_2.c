@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"Step3_2_function.c"
+#include"Step3_2_function.c" // Bibliothéque pour accès au function howOld(age) et howOld(start,end)
 
 main(){
 
