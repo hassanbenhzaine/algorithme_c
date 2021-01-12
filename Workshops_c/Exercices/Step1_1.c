@@ -4,7 +4,8 @@ main(){
 	char nom[20];
 	char prenom[20];
 	char sex[20];
-	int age, numTel;
+	int age;
+	long numTel;
 
 	
 	printf("veuiller enter vos iformations perosnnel\n");
