@@ -45,7 +45,10 @@ int PrintPyramyde(int a){
 }
 
 main(){
-	printf("",PrintPyramyde(5));
+	int a;
+	printf("Veuillez entrer combien de ligne dans le pyramide des etoiles\n");
+	scanf("%d",&a);
+	printf("\n",PrintPyramyde(a));
 }
 
 
