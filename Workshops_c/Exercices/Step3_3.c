@@ -1,29 +1,41 @@
 #include<stdio.h>
-#include<stdlib.h>
 
-int a;
 
-main(){
-	printf("",PrintPyramyde(5));
-}
+int PrintPyramyde(int a){
+	void PrintSpace(int n){
+		char space = 's';
 
-//int PrintPyramyde(int a){
+		for(int i = 0; i < n; i++){
 
-//void PrintStar(int n){
-	for (int i = 1; i <= a;  i++){
-		printf("%d", i * 2 + 1);
+			int result = n - i;
+			while(result > 1){
+				printf("%c",space);
+				result--;
+			} 
+
+         	void PrintStar(int n){
+
+				char star = '*';
+				int result2 = (i * 2)+1;
+				while(result2 != n){
+					printf("%c",star);
+					result2--;
+				} 
+				printf("\n");
+
+    		}
+
+    		PrintStar(i);   
+		} 
+
 	}
-//	}
-
-//	void PrintSpace(int n){
-//		for(i = 2; ; ){
-//			printf()
-//		}
-//	}
+	PrintSpace(a);
 
 	return 1;
 }
 
-
+main(){
+	printf("",PrintPyramyde(5));
+}
 
 
