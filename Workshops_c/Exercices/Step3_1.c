@@ -33,7 +33,8 @@ main(int argc, char const **argv){
 
     // Liste des arguments saisis
     printf("Les arguments sont :\n");
-    for(int i = 0; i < argc; i++){
+    int i;
+    for(i = 0; i < argc; i++){
         if (i != 0){
             printf(" %s\n",argv[i]);
         }
