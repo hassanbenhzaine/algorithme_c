@@ -1,23 +1,32 @@
 #include<stdio.h>
 
-int a, b;
+int a, b, num1, num2, result;
 
 main(){
 
-    printf("Veuillez entrer deux entiers positifs!\n a : ");    scanf("%d",&a);
-    printf(" b : ");                                            scanf("%d",&b);
-
-    // if condition pour savoir si b est pair ou inpair
-    if (b % 2 == 0 && b != 0){
-
-        // si b est impair
-        printf(" %d * %d = %d \n",a,b,a * (b-1) + 1);          
-
-    } else{
-
-        // si b est pair et different de 0
-        printf(" %d * %d = %d \n",a,b,(2 * a * b) /2);      
-
+    printf("Veuillez entrer deux entiers positifs!\n num1 : ");    scanf("%d",&num1);
+    printf(" num2 : ");                                            scanf("%d",&num2);
+    
+	if (num1 > num2){
+		a = num1;
+		b = num2;
+	} else{
+		a = num2;
+		b = num1;
+	}
+	
+    while (b != 0){
+	    if (b % 2 == 1){
+			b--;
+			result += a;
+			printf("= %d * %d + %d\n",a,b,result);  
+	         
+	    } else{
+			a *= 2;
+			b /= 2;
+	    	printf("= %d * %d + %d\n",a,b,result);  
+	    }
     }
-  
+    
+    printf("= %d",result);
 }

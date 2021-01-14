@@ -2,7 +2,7 @@
 
 int a,b;
 
-main(){
+int main(){
     printf("Veulliez enter deux nombre entiers a et b\na : ");
 
     scanf("%d",&a);
@@ -10,4 +10,5 @@ main(){
     scanf("%d",&b);
 
     printf("\na + b = %d\na - b = %d\na * b = %d\na / b = %d\na % b = %d",a+b, a-b, a*b, a/b, a%b);
+    return 0;
 }
